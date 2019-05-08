@@ -1,0 +1,104 @@
+body
+{
+	font-family: dancing script;
+	background-color: black;
+}
+.PR
+{
+	background-color: #d5c75f;
+}
+
+.caja1
+{
+	background-color: #82c3a6;
+}
+@media (max-width:899px)
+{
+	.caja1, .caja2, .caja3, .caja4, .caja5 {
+		width: 100%;
+	}
+}
+
+@media (min-width:900px)
+{
+	.contenido {
+		width: 900px;
+	}
+	.caja1 img {
+		margin: 3vw;
+		text-align: center;
+		width: 90%;
+	}
+	.caja2 img {
+		padding: 1vw;
+		width: 45%;
+		display: flex;
+	}
+	.caja3 img {
+		display: flex;
+		width: 45%;
+		padding: 1vw;
+	}
+}
+
+.footer
+{
+	width: 100%
+}
+
+.contacto, .terminos, .redes, .copyright p
+{
+	width: 25%;
+}
+
+.menu
+{
+	color: white;
+	margin-left: 50%;
+	text-align: right;
+	display: inline;
+}
+
+nav a
+{
+	margin-right: 1vw;
+	margin-left: 1vw;
+	color: white;
+}
+
+nav a:hover
+{
+	color: orange;
+	display: inline;
+}
+
+header
+{
+	background-color: #5b7989;
+	border-radius: 10px 10px 0px 0px;
+	color: white;
+}
+#tit>h1{
+	text-shadow: 2px 2px 2px #02010a;
+}
+#titulo
+{
+	margin-left: 0.75vw;
+	padding-top: 1vw;
+}
+
+.footer
+{
+	background-color: #C6d5c5;
+	border-radius: 0px 0px 10px 10px;
+}
+.lista
+{
+	text-decoration: none;
+	list-style: none;
+}
+.columnasf
+{
+	width: 25%;
+	display: block;
+}

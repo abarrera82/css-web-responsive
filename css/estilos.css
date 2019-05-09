@@ -1,0 +1,177 @@
+body{
+  font-family: dancing script;
+  background-color: black;
+}
+
+header{
+  background-color: #5b7989;
+  color: white;
+  text-shadow: 2px 2px 2px #02010a;
+  border-radius: 10px 10px 0px 0px;
+  padding-left: 0.5vw;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+h1{
+  font-size: 3vw;
+}
+nav{
+  text-shadow: none;
+  margin: 0vw 1vw;
+}
+
+nav>a{
+  color: white;
+  font-size: 2vw;
+}
+
+nav>a:hover{
+  color: orange;
+}
+
+@media (max-width:899px) {
+  body{
+    display: inline;
+  }
+  #I1{
+    width: 85%;
+  }
+  .caja2{
+    text-align: center;
+    margin-bottom: 0px;
+  }
+  footer{
+    text-align: center;
+    margin-top: 0px;
+  }
+  footer>article{
+    width: 100%;
+  }
+  article>h2 {
+    margin-top: 0px!important;
+  }
+	.caja7, .caja8{
+		display: inline;
+		background-color: #d5c75f;
+	}
+}
+
+@media (min-width:900px) {
+  body{
+    width: 900px;
+  }
+  nav{
+    text-align: right;
+  }
+  .caja2{
+    display: flex;
+  }
+  .img2{
+    width: 50%;
+  }
+	.caja7, .caja8{
+		display: flex;
+	}
+
+  footer{
+    display: flex;
+  }
+}
+
+.caja1{
+  order: 1;
+  background-color: #82c3a6;
+  width: 100%;
+  padding: 20px 0px;
+  text-align: center;
+}
+
+.caja2{
+  width: 100%;
+  background-color: #d5c75f;
+  padding: 0px;
+  margin-bottom: 0px;
+  height: 100%
+}
+
+#I1{
+  box-shadow: 2px 2px 2px #02010a;
+  border: 1px solid black;
+}
+
+article>div[class|="im"]{
+  width: 45%;
+}
+
+.img2{
+  box-shadow: 2px 2px 2px #02010a;
+  width: 85%;
+  height: 80%;
+  margin-top: 1vw;
+  margin-left: 1vw;
+  border: 1px solid black;
+  transition: transform 1S;
+}
+.p>p{
+  text-align: center;
+  font-size: 2vw;
+  margin: 0px;
+  padding-top: 3px
+}
+p>a{
+  color: black;
+}
+p>a:hover{
+  color: white;
+}
+#I2:hover{
+  transform: rotate(10deg);
+  border: 2px solid;
+  box-shadow: 4px 4px 4px  #82c3a6;
+}
+
+#I3:hover{
+  transform: translateY(-5px)
+             translateX(20px);
+  box-shadow: 4px 4px 4px  #82c3a6;
+  border: 2px solid;
+}
+
+footer{
+  padding-left: 1vw;
+  margin-top: 0px;
+  border-radius: 0px 0px 10px 10px;
+  background-color: #C6d5c5;
+}
+
+footer>article{
+  width: 25%;
+  margin: 0px;
+}
+
+footer>article>h2{
+  font-size: 2.5vw;
+  text-align: center;
+}
+
+article>ul{
+  list-style: none;
+  font-size: 1.2vw;
+  margin: 0px;
+  padding: 2px;
+}
+.caja7, .caja8{
+	background-color: #d5c75f;
+}
+#IP1{
+	-webkit-filter: blur(10px);
+	filter: blur(10px);
+}
+#IP2, #IP4, #IP6{
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+#IP3{
+	-webkit-filter: sepia(90%);
+	filter: sepia(90%);
+}

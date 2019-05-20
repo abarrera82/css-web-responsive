@@ -13,7 +13,10 @@ header{
   margin-top: 0px;
 }
 h1{
-  font-size: 3vw;
+  margin-top: 0px;
+  text-align: center;
+  font-size: 3.5vw;
+  margin-left: 1vw;
 }
 nav{
   text-shadow: none;
@@ -29,52 +32,45 @@ nav>a:hover{
   color: orange;
 }
 
-@media (max-width:899px) {
-  body{
-    display: inline;
-  }
-  #I1{
-    width: 85%;
-  }
-  .caja2{
-    text-align: center;
-    margin-bottom: 0px;
-  }
-  footer{
-    text-align: center;
-    margin-top: 0px;
-  }
-  footer>article{
-    width: 100%;
-  }
-  article>h2 {
-    margin-top: 0px!important;
-  }
-	.caja7, .caja8{
-		display: inline;
-		background-color: #d5c75f;
-	}
-}
-
 @media (min-width:900px) {
   body{
+    text-align: center;
     width: 900px;
   }
   nav{
     text-align: right;
   }
+  h1{
+    text-align: left;
+  }
   .caja2{
     display: flex;
   }
-  .img2{
-    width: 50%;
+  .p #I2, #I3{
+    padding: 0vw;
+    margin: 1vw 0vw 0vw 0vw;
+    text-align: center;
+    width: 80%;
   }
-	.caja7, .caja8{
+  .caja1{
+    background-color: #82c3a6;
+  }
+	.caja7, .caja8, .caja9, .caja10{
 		display: flex;
 	}
 
   footer{
     display: flex;
+  }
+
+  footer>article>h2{
+    font-size: 2.5vw !important;
+  }
+
+  article>ul{
+    margin-top: 0px;
+    padding-top: 0px;
+    font-size: 1.2vw !important;
   }
 }
 
@@ -91,10 +87,12 @@ nav>a:hover{
   background-color: #d5c75f;
   padding: 0px;
   margin-bottom: 0px;
-  height: 100%
+  height: 100%;
+  text-align: center;
 }
 
-#I1{
+#I1, #I2, #I3{
+  width: 90%;
   box-shadow: 2px 2px 2px #02010a;
   border: 1px solid black;
 }
@@ -116,7 +114,7 @@ article>div[class|="im"]{
   text-align: center;
   font-size: 2vw;
   margin: 0px;
-  padding-top: 3px
+  padding: 3px 0px;
 }
 p>a{
   color: black;
@@ -145,33 +143,37 @@ footer{
 }
 
 footer>article{
-  width: 25%;
+  width: 100%;
   margin: 0px;
 }
 
 footer>article>h2{
-  font-size: 2.5vw;
+  margin-top: 0px;
+  padding-top: 2px;
+  font-size: 3.5vw;
   text-align: center;
 }
 
 article>ul{
   list-style: none;
-  font-size: 1.2vw;
+  font-size: 3vw;
   margin: 0px;
-  padding: 2px;
+  padding: 0px;
+  text-align: center;
 }
-.caja7, .caja8{
+.caja7, .caja8, .caja9, .caja10{
+  text-align: center;
 	background-color: #d5c75f;
 }
-#IP1{
+#IP1, #IP7{
 	-webkit-filter: blur(10px);
 	filter: blur(10px);
 }
-#IP2, #IP4, #IP6{
+#IP2, #IP4, #IP6, #IP8, #IP10, #IP12{
 	-webkit-filter: grayscale(100%);
 	filter: grayscale(100%);
 }
-#IP3{
+#IP3, #IP9{
 	-webkit-filter: sepia(90%);
 	filter: sepia(90%);
 }

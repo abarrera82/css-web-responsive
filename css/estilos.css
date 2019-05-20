@@ -32,17 +32,24 @@ nav>a:hover{
   color: orange;
 }
 
+.contenido{
+  width: 100%;
+}
+
 @media (min-width:900px) {
-  body{
-    text-align: center;
+  .contenido{
     width: 900px;
+    margin: 0 auto;
   }
+
   nav{
     text-align: right;
   }
   h1{
     text-align: left;
   }
+
+
   .caja2{
     display: flex;
   }
